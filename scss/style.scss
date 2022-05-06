@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #fb2b54 ;
+}
+
+body{
+    font-family: 'poppins';
+    nav{
+        .btn-background{
+            background: #fb2b54;
+        }
+    }
+    section{
+        h1{
+            color: var(--primary-color)
+        }
+        .btn-color{
+            background-color: #fb2b54;
+        }
+        .text-color{
+            color: var(--primary-color)
+        }
+        .img-height{
+            height: 150px;
+        }
+        .testi-img{
+            height: 100px;
+        }
+    }
+    
+}
