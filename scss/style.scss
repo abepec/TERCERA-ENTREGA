@@ -1,23 +1,40 @@
-:root {
-    --primary-color: #fb2b54 ;
+$primary-color:#fb2b54;
+$font-family: 'poppins';
+$big-title: 4.5rem;
+$medium-title: 3rem;
+
+
+.btn-style {
+    background-color: $primary-color;
+    border-radius: 100px;
+    color: white;
+}
+
+.btn-style-black{
+    border-radius: 100px;
+    color: white;
 }
 
 body{
-    font-family: 'poppins';
+    font-family: $font-family;
     nav{
         .btn-background{
-            background: #fb2b54;
+            background: $primary-color;
         }
     }
     section{
         h1{
-            color: var(--primary-color)
+            color: $primary-color;
+            font-size: $big-title;
         }
-        .btn-color{
-            background-color: #fb2b54;
+        h2{
+            font-size: $medium-title;
+        }
+        .bar{
+            background-color: $primary-color;
         }
         .text-color{
-            color: var(--primary-color)
+            color: $primary-color;
         }
         .img-height{
             height: 150px;

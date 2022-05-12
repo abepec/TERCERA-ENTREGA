@@ -1,5 +1,12 @@
-:root {
-  --primary-color: #fb2b54 ;
+.btn-style {
+  background-color: #fb2b54;
+  border-radius: 100px;
+  color: white;
+}
+
+.btn-style-black {
+  border-radius: 100px;
+  color: white;
 }
 
 body {
@@ -9,13 +16,17 @@ body nav .btn-background {
   background: #fb2b54;
 }
 body section h1 {
-  color: var(--primary-color);
+  color: #fb2b54;
+  font-size: 4.5rem;
 }
-body section .btn-color {
+body section h2 {
+  font-size: 3rem;
+}
+body section .bar {
   background-color: #fb2b54;
 }
 body section .text-color {
-  color: var(--primary-color);
+  color: #fb2b54;
 }
 body section .img-height {
   height: 150px;
